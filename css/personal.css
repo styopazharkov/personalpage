@@ -6,12 +6,19 @@
 
 .mephotodiv {
     width: 100%;
-    max-width: 200px;
+    max-width: 300px;
     margin: auto;
+    display: grid;
+    grid-template-columns: 66% 34%;
 }
 
-.mephotodiv img {
+.mephoto{
     width: 100%;
+}
+.mearrow{
+    width: 60%;
+    margin: auto;
+    margin-top: 60%;
 }
 
 p {
