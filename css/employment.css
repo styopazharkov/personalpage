@@ -20,6 +20,18 @@
     font-weight: unset;
 }
 
+.employmentcartoondiv{
+    width: 100%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    max-width: 100px;
+}
+
+.employmentcartoon{
+    width: 100%;
+}
+
 @media screen and (min-width: 700px) {
     .container{
         margin: 100px;
