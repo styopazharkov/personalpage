@@ -55,6 +55,18 @@
     margin-bottom: 20px;
 }
 
+.introcartoondiv{
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 400px;
+}
+
+.introcartoon{
+    width: 100%;
+}
+
 @media screen and (min-width: 770px) {
     .container{
         margin: 100px;
