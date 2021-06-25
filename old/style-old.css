@@ -1,0 +1,241 @@
+body{
+    background-color: white;
+	font-family: 'Open Sans',sans-serif;
+    margin: 0;
+}
+
+
+
+.sectionheader{
+    font-size: 40px;
+	letter-spacing: -2px;
+	margin: 0;
+	font-weight: 500;
+	line-height: 30px;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.sectiontext{
+    font-size: 20px;
+	letter-spacing: 0px;
+	margin: 0;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+	font-weight: 300;
+	line-height: 25px;
+    color: black;
+}
+
+
+.subhead{
+    font-size: 20px;
+	letter-spacing: 0px;
+	margin: 0;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+	font-weight: 600;
+	line-height: 25px;
+    color: black;
+}
+
+.subtext{
+    font-size: 20px;
+	letter-spacing: 0px;
+	margin: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+	font-weight: 300;
+	line-height: 25px;
+    color: black;
+}
+
+hr{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+/* BACKGROUND */
+.bk{
+    background-image: url(../img/raised-hand.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-position-x: center;
+}
+/* END BACKGROUND */
+
+/* NAVBAR */
+.navbarpad{
+    height:120px;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400);
+.navbar li a{
+    font-size: 20px;
+	letter-spacing: -1px;
+	margin: 0;
+	font-weight: 600;
+	text-transform: uppercase;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar li {
+    float: left;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  .navbar li a:hover {
+    background-color: #111;
+  }
+/* END NAVBAR */
+
+/* INTRO */
+
+.grid {
+    display: grid;
+    grid-template-columns: 300px auto;
+    margin-bottom: 50px;
+}
+
+.hi{
+    font-size: 60px;
+	letter-spacing: -3px;
+	margin: 0;
+    margin-top: 50px;
+	font-weight: 600;
+	line-height: 75px;
+	text-transform: uppercase;
+    color: red;
+}
+
+.name{
+    font-size: 120px;
+	letter-spacing: -8px;
+	margin: 0;
+	font-weight: 600;
+	line-height: 95px;
+	text-transform: uppercase;
+    color: black;
+}
+/* END INTRO */
+
+/* ABOUT */
+
+.courses{
+    margin: 0;
+}
+
+.course{
+    font-size: 20px;
+	letter-spacing: 0px;
+	margin: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+	font-weight: 300;
+	line-height: 25px;
+    color: black;
+}
+
+/* END ABOUT */
+
+/* PROJECTS */
+
+
+.textlink{
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    background-color: #444;
+    border-radius: 5px;
+}
+
+.textlink:hover{
+    background-color: #222;
+}
+
+
+.textlink p{
+    color: black;
+    text-align: center;
+    margin: 10px;
+    line-height: 30px;
+}
+/* END PROJECTS */
+
+/* CONTACT  */
+.contacts{
+
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.contactsdiv{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.contactsdiv:hover{
+    background-color: #333;
+    transition-duration: 0.5s;
+}
+
+.contactsdiv div{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    background-size: contain;
+}
+
+.mail div{
+    background-image: url(../img/icons/mail.png);
+}
+.youtube div{
+    background-image: url(../img/icons/youtube.png);
+}
+.instagram div{
+    background-image: url(../img/icons/instagram.png);
+}
+.github div{
+    background-image: url(../img/icons/github.png);
+}
+
+/* END CONTACT */
+
+/*************************/
+/*      CARTOONS PAGE        */
+/*************************/
+
+/* BACKGROUND */
+.bk2{
+    background-image: url(../img/dancing.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-position-x: center;
+}
+/* END BACKGROUND */

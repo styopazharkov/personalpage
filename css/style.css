@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Assistant, Roboto, sans-serif;
+    font-size: 20px;
+    background-color: white;
+    margin: 0;
+}
+
+/* END BACKGROUND */
+
+/* NAVBAR */
+.navbar{
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(207, 207, 207);
+}
+
+.navbar li {
+    width: 100%;
+}
+
+.navbar li a{
+    font-family: 'Indie Flower',sans-serif;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: 0px;
+    margin: 0;
+    font-weight: 600;
+    /* text-transform: uppercase; */
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+
+.navbar li a:hover {
+    background-color: rgb(223, 223, 223);
+}
+
+.selected-navpage {
+    background-color: rgb(240, 240, 240);
+}
+
+.homeimg {
+    height: 18px;
+}
+
+@media screen and (min-width: 600px) {
+    .navbarpad{
+        height: 40px;
+    }
+
+    .navbar{
+        position: fixed;
+    }
+
+    .navbar li {
+        float: left;
+        width: unset;
+    }
+
+    .navbar li a{
+        border-radius: 10px 10px 0 0;
+        font-size: 25px;
+    }
+
+    .navbar li a:hover {
+        background-color: rgb(240, 240, 240);
+    }
+
+    .selected-navpage {
+        background-color: white;
+    }
+}

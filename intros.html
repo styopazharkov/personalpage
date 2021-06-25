@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hey, it's Styopa! This page has intoductory texts you should read.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/intros.css">
+    <title>Styopa — Intros</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300&display=swap');
+    </style>
+</head>
+<body>
+    <ul class="navbar">
+        <li><a href="."><img class="homeimg" src="./img/icons/home.png" alt="Home"></a></li>
+        <li><a href="./employment">Employment</a></li>
+        <li><a href="./coursework">Coursework</a></li>
+        <li><a href="./intros" class="selected-navpage">Intros</a></li>
+        <li><a href="./personal">Personal</a></li>
+        <li><a href="./photos">Photos</a></li>
+    </ul>
+
+    <div class="navbarpad"></div>
+
+    <div class="container">
+        <div class="pretext">Every once in a while, I write an introductory text on some topic that I like. I always stick to a certain style of writing, but the intros have varying amounts of required prior knowledge. Some of these I wrote as a final project for a class, and others are just for fun. Please let me know if you spot any typos or mistakes.</div>
+
+        <div class="introdiv">
+            <h2>Fourier Series for Beginners</h2>
+            <p>
+                This is an introduction to Fourier series for people who haven't seen them before or those who have, but don't have a good intuition for them. I do my best to intuitively explain what fourier series are and why they are relevant. Along the way, we prove some powerful theorems and see some interesting applications.
+            </p>
+            <p class="prereq">
+                <span class="prereqpretext">Prior knowledge needed:</span> An understanding of basic trigonometry, and the definitions of limits, integrals, derivatives, and continuity of a function.
+            </p>
+           <div class="linkdiv"><a href="./pdfs/fourier-series.pdf">Click Here To Read</a></div>
+        </div>
+
+        <div class="introdiv">
+            <h2>Monotone Circuits Struggle with Cliques</h2>
+            <p>This is a more complex exposition of Alexander Razborov's lower bound proof for monotone circuits. It's directed at people who have taken a complexity theory course or know what a circuit is. To write it, I read the same proof in many different sources, and built off of the best parts to create what I think is the most intuitive explanation.</p>
+            <p class="prereq">
+                <span class="prereqpretext">Prior knowledge needed:</span> Definition of circuits, some experience with complexity theory.
+            </p>
+            <div class="linkdiv"><a href="./pdfs/monotone-circuits.pdf">Click Here To Read</a></div>
+        </div>
+
+        <div class="introdiv">
+            <h2>Sunflower Lemma</h2>
+            <p>This is a proof of the Sunflower Lemma, which is a purely combinatorial result that has been of great interest to mathematicians and CS theorists. Anyone with basic math experience should be able to understand the proof. In fact, the previously listed intro uses this lemma, so it is directly inserted there. Note that this text doesn't have a nice introduction or motivation section like the others do. </p>
+            <p class="prereq">
+                <span class="prereqpretext">Prior knowledge needed:</span> Basic math, what is a set, proofs by induction. 
+            </p>
+            <div class="linkdiv"><a href="./pdfs/sunflower-lemma.pdf">Click Here To Read</a></div>
+        </div>
+
+        <div class="introdiv">
+            <h2>Envy-Free Cake Cutting</h2>
+            <p>This intro is good to read if you have siblings. It talks about how to divide a cake so that everyone is happy, but from a mathematical perspective. I made this with my friend Bharath, and the format is very casual and easy-to-read, with several complex proofs omitted. Anyone should be able to get something out of this paper.</p>
+            <p class="prereq">
+                <span class="prereqpretext">Prior knowledge needed:</span> None. 
+            </p>
+            <div class="linkdiv"><a href="./pdfs/cake-cutting.pdf">Click Here To Read</a></div>
+        </div>
+
+        <div class="introdiv">
+            <h2>Randomization and Counting Classes</h2>
+            <p>This is another fairly involved complexity topic. If you've taken a standard introductory course in theory of computer science, you should be able to understand this. This goes over Toda's theorem and some of its estuaries. We introduce something called counting classes and something called the BP operator and then we use them to prove a result that seems to have nothing to do with them. </p>
+            <p class="prereq">
+                <span class="prereqpretext">Prior knowledge needed:</span> Definitions of things like NP, PSPACE, and PH
+            </p>
+            <div class="linkdiv"><a href="./pdfs/randomization-and-counting-classes.pdf">Click Here To Read</a></div>
+        </div>
+        
+        <div class="introdiv">
+            <h2>An Example of Fine-Grained Hardness</h2>
+            <p>Theoretical computer science has seen a lot of results that say if there exists a polynomial-time algorithm for something. That doesn't distinguish between linear and quadratic algorithms, for example. This intro gives an example of a hardness result that's more fine-grained than simply polynomial-time. This is a good read for beginning CS theory students.</p>
+            <p class="prereq">
+                <span class="prereqpretext">Prior knowledge needed:</span> Basic CS theory terms, P, NP, SAT.
+            </p>
+            <div class="linkdiv"><a href="./pdfs/fine-grained-hardness.pdf">Click Here To Read</a></div>
+        </div>
+
+        <div class="introdiv">
+            <h2>Introduction to Expanders</h2>
+            <p>Expanders are a very useful tool in both math and CS. This intro gives a look into what they are and some basic results about them. This text is for anyone who is comfortable with the word "graph".</p>
+            <p class="prereq">
+                <span class="prereqpretext">Prior knowledge needed:</span> Basic math, what is a set, proofs by induction. 
+            </p>
+            <div class="linkdiv"><a href="./pdfs/expanders.pdf">Click Here To Read</a></div>
+        </div>
+
+        <div class="introdiv">
+            <h2>The Group Testing Problem</h2>
+            <p>This is a video and not a pdf. I talk about the math behing being able to save some money on sickness testing by having multiple people be combined in one test. This is presented in a way that's simple, but this is really an undercover error correcting codes problem. The solution uses Reed-Solomon codes undercover as "stacks". </p>
+            <p class="prereq">
+                <span class="prereqpretext">Prior knowledge needed:</span> Basic math, polynomails, modular arithmetic.
+            </p>
+            <iframe class="video" src="https://www.youtube.com/embed/s7JvcW7kbNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,115 @@
+.styopadiv {
+    margin: auto;
+    max-width: 600px;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.styopadiv img {
+    width: 100%;
+}
+
+.introdiv {
+    margin: auto;
+    width: 100%;
+    max-width: 400px;
+}
+
+.intro {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contactdiv{
+    margin: auto;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+}
+
+.contactintro{
+    grid-column: 1 / -1;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contactbox{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+.contact{
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    color: black;
+}
+#email {
+    background-image: url(../img/icons/email0.jpeg);
+}
+.contactbox:hover #email{
+    background-image: url(../img/icons/email1.jpeg);
+}
+#github {
+    background-image: url(../img/icons/github0.jpeg);
+}
+.contactbox:hover #github{
+    background-image: url(../img/icons/github1.jpeg);
+}
+#linkedin {
+    background-image: url(../img/icons/linkedin0.jpeg);
+}
+.contactbox:hover #linkedin{
+    background-image: url(../img/icons/linkedin1.jpeg);
+}
+#spotify {
+    background-image: url(../img/icons/spotify0.jpeg);
+}
+.contactbox:hover #spotify{
+    background-image: url(../img/icons/spotify1.jpeg);
+}
+.contactbox:hover .contact{
+    transform: rotate3d(1,2,3,360deg);
+    transition-duration: 0.6s;
+}
+
+
+@media screen and (min-width: 600px) {
+
+    .contactdiv {
+        max-width: 1000px;
+        margin-bottom: 100px;
+    }
+
+    .introdiv {
+        max-width: 1000px;
+    }
+
+    .contactbox{
+        width: 90px;
+        height: 90px;
+    }
+
+    .contact{
+        width: 90px;
+        height: 90px;
+        line-height: 90px;
+        font-size: 20px;
+    }
+}
