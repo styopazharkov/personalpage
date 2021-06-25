@@ -22,6 +22,22 @@
     font-weight: 2000;
 }
 
+.photoscartoondiv{
+    width: 100%;
+    margin: auto;
+    margin-top: 700px;
+    margin-bottom: 20px;
+    max-width: 300px;
+}
+
+.photoscartoon{
+    width: 100%;
+}
+
+.photoscartoondiv:hover .photoscartoon{
+    content: url(../img/cartoons/scroll1.jpeg);
+}
+
 @media screen and (min-width: 770px) {
     .container{
         margin: 100px;
