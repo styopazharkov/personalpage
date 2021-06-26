@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /img/icons/
+
+User-agent: *
+Disallow: /img/me/mearrow.jpeg
+
+User-agent: *
+Disallow: /old/
+
+Sitemap: https://stanford.edu/~styopa/sitemap
